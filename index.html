@@ -1,0 +1,127 @@
+<!-- página para uma agência de propaganda -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nodeprop - Especializada em Soluções Digitais</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+
+    <meta name="description" content="Agência especializada em marketing digital, Criação de Apps mobile">
+    <meta name="keywords" content="Agência Digital, Marketing, Sites">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Rodrigo Oliveira">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header class="cabecalho">
+        <a href="index.html"><h1 class="logo">Nodeprop</h1></a>
+        <button class="btn-menu"><i class="fas fa-bars fa-lg"></i></button>
+        <!-- menu navegação -->
+        <nav class="menu">
+            <a href="" class="btn-close"><i class="fas fa-times fa-lg"></i></a> <!-- botão para fechar o menu -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Clientes</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Quem somos</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="title">
+            <h2>OUSE INOVAR</h2>
+            <h3>Criamos experiências e estabelecemos ações estratégias que conectam marcas e consumidores</h3>
+        </div>
+
+        <div class="buttons">
+            <button class="btn-cadastrar">Cadastre-se <i class="fas fa-arrow-circle-right"></i></button>
+            <button class="btn-sobre">Sobre <i class="fas fa-question-circle"></i></button>
+        </div>
+    </div>
+
+    <!-- conteudo -->
+    <main class="servicos">
+        <article class="servico">
+            <a href="#"><img src="images/criacoes.jpg" alt="Campanhas Publicitáias"></a>
+            <div class="inner">
+                <a href="#">Campanhas Publicitáias</a>
+                <h4>Impressos, VTs e Jingles</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, labore nesciunt, recusandae ab distinctio maxime expedita a laborum adipisci quia possimus rem laboriosam id omnis soluta repudiandae eaque doloribus? Temporibus.
+                </p>
+            </div>
+        </article>
+
+        <article class="servico">
+            <a href="#"><img src="images/md.jpg" alt="Marketing Digital"></a>
+            <div class="inner">
+                <a href="#">Marketing Digital</a>
+                <h4>Administração de redes sociais</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, labore nesciunt, recusandae ab distinctio maxime expedita a laborum adipisci quia possimus rem laboriosam id omnis soluta repudiandae eaque doloribus? Temporibus.
+                </p>
+            </div>
+        </article>
+
+        <article class="servico">
+            <a href="#"><img src="images/cs.jpg" alt="Criação de Sites"></a>
+            <div class="inner">
+                <a href="#">Criação de Sites</a>
+                <h4>Sites Administráveis</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, labore nesciunt, recusandae ab distinctio maxime expedita a laborum adipisci quia possimus rem laboriosam id omnis soluta repudiandae eaque doloribus? Temporibus.
+                </p>
+            </div>
+        </article>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <h2>Inscreva-se Agora!</h2>
+        <h3>Receba novidades, dicas e muito mais!</h3>
+
+        <form action="">
+            <input type="email" name="email" placeholder="Seu Email">
+            <button>Cadastrar</button>
+        </form>
+    </section>
+
+    <!-- rodape -->
+    <footer class="rodape">
+        <div class="socialicons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <p class="copyright">copyright Nodeprop 2016 - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- fonts icones -->
+    <script src="js/jquery.js"></script>
+    <script src="js/all.min.js"></script>
+
+    <script>
+        // script para mostrar o menu
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+
+        /* script para fechar o menu 
+        $(".btn-menu").click(function(){
+            $(".menu").hide();
+        });*/
+    </script>
+</body>
+</html>
