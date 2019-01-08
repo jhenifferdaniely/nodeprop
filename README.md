@@ -12,4 +12,4 @@ o curso é inteiramente grátis.
 
 [Site Node Studio Treinamentos](https://www.nodestudio.com.br/)  
   
- Visualize o projeto online >>
+ Visualize o projeto online >> [Clique aqui](https://jhenifferdaniely.github.io/nodeprop/)
